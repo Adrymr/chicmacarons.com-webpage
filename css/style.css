@@ -1,0 +1,116 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+.brand-text{
+  font-family: 'Pacifico', cursive;
+}
+
+.color-text{
+  color: darkgrey;
+  font-size: 50px;
+}
+
+.margin-container{
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+
+.section-title{
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 25px;
+  font-family: 'Courier Prime', monospace;
+  text-decoration:underline 1.5px;
+}
+
+.post-img{
+  height: 110%;
+  width: 110%;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  transition: all 0.5s;
+}
+
+.post-img:hover{
+  transform: scale(1.2);
+}
+
+.info-title{
+  text-align: center;
+}
+
+.info-text{
+  text-align: center;
+  font-weight: 300;
+}
+
+.info-parrf{
+  text-align: justify;
+}
+
+.contacto-cont{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.social-media-cont{
+  text-align: center;
+}
+
+.social-media-cont li{
+  margin-bottom: 10px;
+}
+
+.social-media-cont a{
+    color: black;
+    font-weight: 300;
+}
+
+.social-media-cont .fab{
+  color: lightpink;
+}
+
+.up i {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  z-index: 10;
+  position: fixed; /*superposicion de capas un div sobre otro*/
+  top: 88%;
+  right: 15px;
+  bottom: 30px;
+  right: 10px;
+  font-size: 1.5rem;
+}
+
+.up a{
+  text-decoration: none;
+  color:lightpink;
+  border-color: 1px solid lightpink;
+  border-radius: 50%;
+  text-align: center;
+}
+
+
+
+
+
